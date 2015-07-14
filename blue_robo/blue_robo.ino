@@ -42,11 +42,14 @@ void turnByDegree(int16_t degree)
 void setup()
 {
   Serial1.begin(9600);
-
 }
 
 void loop()
 {
+  if(Serial1.available() > 0)
+  {
+    Serial1.print(Serial1.read());
+  }
     
 }
 
