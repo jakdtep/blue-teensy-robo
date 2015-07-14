@@ -1,4 +1,4 @@
-//#define USE_ARDUINO_IDE
+#define USE_ARDUINO_IDE
 #ifndef  USE_ARDUINO_IDE
 #include "WProgram.h"
 #endif
@@ -41,6 +41,7 @@ void turnByDegree(int16_t degree)
 
 void setup()
 {
+  Serial1.begin(9600);
 
 }
 
