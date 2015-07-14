@@ -1,0 +1,2 @@
+This code interfaces bluetooth module over UART with teensy arduino.
+It takes commands from remote device over bluetooth and controls the robot motors
